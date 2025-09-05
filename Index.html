@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Task Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Daily Task Tracker</h1>
+      <div class="motivation">
+        <p id="quote"></p>
+        <!-- Motivational quote -->
+      </div>
+
+      <section id="task-section">
+        <input
+          type="text"
+          name="task-input"
+          id="task-input"
+          placeholder="Enter a new task"
+        />
+        <button id="add-task-btn">Add Task</button>
+      </section>
+
+      <section>
+        <h2>Tasks</h2>
+        <ul id="task-list"></ul>
+        <button id="clear-tasks-btn">Clear All Tasks</button>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
